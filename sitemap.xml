@@ -9,7 +9,17 @@
 
     <sitemap>
         <loc>https://sonanlee.dev/page-sitemap.xml</loc>
-        <lastmod>2020-01-18T16:03:54.767Z</lastmod>
+        <lastmod>2020-01-18T16:14:07.619Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://sonanlee.dev/category-sitemap.xml</loc>
+        <lastmod>2020-01-18T16:12:31.700Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://sonanlee.dev/tag-sitemap.xml</loc>
+        <lastmod>2020-01-18T16:12:31.700Z</lastmod>
     </sitemap>
 
 </sitemapindex>
