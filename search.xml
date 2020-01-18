@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>TTS를 기반으로 한 슬랙봇 만들기</title>
-    <url>/2020/01/18/Parroter-%EB%A7%8C%EB%93%A4%EA%B8%B0/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Development</category>
-        <category>Application</category>
-      </categories>
-      <tags>
-        <tag>slackbot</tag>
-        <tag>tts</tag>
-        <tag>google-cloud-text-to-speech</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>블로그를 시작합니다.</title>
     <url>/2020/01/12/StartBlog/</url>
     <content><![CDATA[<p>이번에 <a href="https://hexo.io/">Hexo</a>로 블로그를 시작합니다.</p>
@@ -24,7 +9,7 @@
 <hr>
 ]]></content>
       <categories>
-        <category>Welcome</category>
+        <category>_Notice</category>
       </categories>
       <tags>
         <tag>hello</tag>
