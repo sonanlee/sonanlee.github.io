@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>블로그를 시작합니다.</title>
+    <url>/2020/01/12/StartBlog/</url>
+    <content><![CDATA[<p>이번에 <a href="https://hexo.io/">Hexo</a>로 블로그를 시작합니다.</p>
+<p>다양한 기술과 게임 개발 관련된 글을 써볼 예정입니다.</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Welcome</category>
+      </categories>
+      <tags>
+        <tag>hello</tag>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+</search>
