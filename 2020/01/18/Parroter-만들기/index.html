@@ -7,30 +7,32 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-<title>카테고리: Welcome - 소난의 기술 블로그</title>
+<title>TTS를 기반으로 한 슬랙봇 만들기 - 소난의 기술 블로그</title>
 
 
     <meta name="description" content="my brain is open, Paul Erdos">
-<meta property="og:type" content="website">
-<meta property="og:title" content="소난의 기술 블로그">
-<meta property="og:url" content="https://sonanlee.dev/categories/Welcome/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TTS를 기반으로 한 슬랙봇 만들기">
+<meta property="og:url" content="https://sonanlee.dev/2020/01/18/Parroter-%EB%A7%8C%EB%93%A4%EA%B8%B0/index.html">
 <meta property="og:site_name" content="소난의 기술 블로그">
 <meta property="og:description" content="my brain is open, Paul Erdos">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:image" content="https://sonanlee.dev/images/og_image.png">
+<meta property="og:image" content="https://sonanlee.dev/images/post/parroter-thumbnail.png">
+<meta property="article:published_time" content="2020-01-18T11:40:25.000Z">
+<meta property="article:modified_time" content="2020-01-18T12:22:43.157Z">
 <meta property="article:author" content="Sonanlee">
-<meta property="article:tag" content="기술">
-<meta property="article:tag" content=" 게임개발">
-<meta property="article:tag" content=" 조직문화">
-<meta property="article:tag" content=" 리더쉽">
+<meta property="article:tag" content="slackbot">
+<meta property="article:tag" content="tts">
+<meta property="article:tag" content="google-cloud-text-to-speech">
+<meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://sonanlee.dev/images/og_image.png">
+<meta name="twitter:image" content="https://sonanlee.dev/images/post/parroter-thumbnail.png">
 
 
 
 
 
-<link rel="alternative" href="/atom.xml" title="소난의 기술 블로그" type="application/atom+xml">
+<link rel="alternative" href="/atom.xml" title="TTS를 기반으로 한 슬랙봇 만들기" type="application/atom+xml">
 
 
 
@@ -92,7 +94,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/sonanlee.png" alt="소난의 기술 블로그" height="28">
+                <img src="/images/sonanlee.png" alt="TTS를 기반으로 한 슬랙봇 만들기" height="28">
             
             </a>
         </div>
@@ -120,6 +122,10 @@
             <div class="navbar-end">
                 
                 
+                <a class="navbar-item is-hidden-tablet catalogue" title="카탈로그" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
                 
                 <a class="navbar-item search" title="검색" href="javascript:;">
                     <i class="fas fa-search"></i>
@@ -133,42 +139,30 @@
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column is-8-tablet is-8-desktop is-8-widescreen has-order-2 column-main"><div class="card">
-    <div class="card-content">
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-        <ul>
-            <li><a href="/categories">카테고리</a></li>
-            
-            <li class="is-active"><a href="#" aria-current="page">Welcome</a></li>
-        </ul>
-        </nav>
-    </div>
-</div>
-
-    
+                <div class="column is-8-tablet is-8-desktop is-8-widescreen has-order-2 column-main">
 <div class="card">
     
     <div class="card-image">
-        <a href="/2020/01/12/StartBlog/" class="image is-7by1">
-            <img class="thumbnail" src="/images/how-to-start-a-blog.jpg" alt="블로그를 시작합니다.">
-        </a>
+        <span  class="image is-7by1">
+            <img class="thumbnail" src="/images/post/parroter-thumbnail.png" alt="TTS를 기반으로 한 슬랙봇 만들기">
+        </span>
     </div>
     
     <div class="card-content article ">
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2020-01-12T12:53:10.445Z">2020-01-12</time>
+                <time class="level-item has-text-grey" datetime="2020-01-18T11:40:25.000Z">2020-01-18</time>
                 
                 <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/Welcome/">Welcome</a>
+                <a class="has-link-grey -link" href="/categories/Development/">Development</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/Development/Application/">Application</a>
                 </div>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    몇 초 읽기 (대략 46 단어)
+                    몇 초 읽기 (대략 0 단어)
                 </span>
                 
                 
@@ -177,15 +171,20 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/2020/01/12/StartBlog/">블로그를 시작합니다.</a>
+                TTS를 기반으로 한 슬랙봇 만들기
             
         </h1>
         <div class="content">
-            <p>이번에 <a href="https://hexo.io/">Hexo</a>로 블로그를 시작합니다.</p>
-<p>다양한 기술과 게임 개발 관련된 글을 써볼 예정입니다.</p>
-<p>잘 부탁드립니다.</p>
-<hr>
-
+            
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/google-cloud-text-to-speech/" rel="tag">google-cloud-text-to-speech</a>, <a class="has-link-grey -link" href="/tags/python/" rel="tag">python</a>, <a class="has-link-grey -link" href="/tags/slackbot/" rel="tag">slackbot</a>, <a class="has-link-grey -link" href="/tags/tts/" rel="tag">tts</a>
+                </div>
+            </div>
         </div>
         
         
@@ -195,208 +194,124 @@
 
 
 
+<div class="card">
+    <div class="card-content">
+        <h3 class="menu-label has-text-centered">Gefällt Ihnen der Artikel? Unterstützen Sie den Autor mit</h3>
+        <div class="buttons is-centered">
+            
+                <!-- Visit https://www.paypal.com/donate/buttons/ to get your donate button -->
 
+<a class="button is-warning donate" onclick="document.getElementById(&#39;paypal-donate-form&#39;).submit()">
+    <span class="icon is-small">
+        <i class="fab fa-paypal"></i>
+    </span>
+    <span>Paypal</span>
+</a>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener" id="paypal-donate-form">
+    <input type="hidden" name="cmd" value="_donations" />
+    <input type="hidden" name="business" value="sonan0721@gmail.com" />
+    <input type="hidden" name="currency_code" value="USD" />
+</form>
 
-
-
-
+                
+        </div>
+    </div>
 </div>
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2020/01/12/StartBlog/">
+                <span class="level-item">블로그를 시작합니다.</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="title is-5 has-text-weight-normal">댓글</h3>
+        <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ko/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-comments" data-width="100%" data-href="https://sonanlee.dev/2020/01/18/Parroter-%EB%A7%8C%EB%93%A4%EA%B8%B0/" data-num-posts="5"></div>
+
+    </div>
+</div>
+</div>
+                
                 
 
 
 
 
-<div class="column is-4-tablet is-4-desktop is-4-widescreen  has-order-1 column-left ">
+<div class="column is-4-tablet is-4-desktop is-4-widescreen  has-order-3 column-right is-sticky">
     
         
-<div class="card widget">
-    <div class="card-content">
-        <nav class="level">
-            <div class="level-item has-text-centered" style="flex-shrink: 1">
-                <div>
-                    
-                    <figure class="image is-128x128 has-mb-6">
-                        <img class="" src="https://www.gravatar.com/avatar/a30ecf024e6593549786078647a2de84?s=128" alt="Do Haeng Lee">
-                    </figure>
-                    
-                    <p class="is-size-4 is-block">
-                        Do Haeng Lee
-                    </p>
-                    
-                    
-                    <p class="is-size-6 is-block">
-                        Programmer at Nexon Korea
-                    </p>
-                    
-                    
-                    <p class="is-size-6 is-flex is-flex-center has-text-grey">
-                        <i class="fas fa-map-marker-alt has-mr-7"></i>
-                        <span>South Kroea</span>
-                    </p>
-                    
-                </div>
-            </div>
-        </nav>
-        <nav class="level is-mobile">
-            <div class="level-item has-text-centered is-marginless">
-                <div>
-                    <p class="heading">
-                        포스트
-                    </p>
-                    <a href="/archives">
-                        <p class="title has-text-weight-normal">
-                            2
-                        </p>
-                    </a>
-                </div>
-            </div>
-            <div class="level-item has-text-centered is-marginless">
-                <div>
-                    <p class="heading">
-                        카테고리
-                    </p>
-                    <a href="/categories">
-                        <p class="title has-text-weight-normal">
-                            3
-                        </p>
-                    </a>
-                </div>
-            </div>
-            <div class="level-item has-text-centered is-marginless">
-                <div>
-                    <p class="heading">
-                        태그
-                    </p>
-                    <a href="/tags">
-                        <p class="title has-text-weight-normal">
-                            7
-                        </p>
-                    </a>
-                </div>
-            </div>
-        </nav>
-        
-        <div class="level">
-            <a class="level-item button is-link is-rounded" href="https://github.com/sonanlee" target="_blank" rel="noopener">
-                팔로우</a>
-        </div>
-        
-        
-        
-        <div class="level is-mobile">
-            
-            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
-                title="Github" href="https://github.com/sonanlee">
-                
-                <i class="fab fa-github"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
-                title="Facebook" href="https://www.facebook.com/sonan0721">
-                
-                <i class="fab fa-facebook"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
-                title="Linkedin" href="https://www.linkedin.com/in/sonanlee/">
-                
-                <i class="fab fa-linkedin"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
-                title="RSS" href="/atom.xml">
-                
-                <i class="fas fa-rss"></i>
-                
-            </a>
-            
-        </div>
-        
-    </div>
-</div>
-    
-        
-<div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-            <h3 class="menu-label">
-                카테고리
-            </h3>
-            <ul class="menu-list">
-            <li>
-        <a class="level is-marginless" href="/categories/Development/">
-            <span class="level-start">
-                <span class="level-item">Development</span>
-            </span>
-            <span class="level-end">
-                <span class="level-item tag">1</span>
-            </span>
-        </a><ul><li>
-        <a class="level is-marginless" href="/categories/Development/Application/">
-            <span class="level-start">
-                <span class="level-item">Application</span>
-            </span>
-            <span class="level-end">
-                <span class="level-item tag">1</span>
-            </span>
-        </a></li></ul></li><li>
-        <a class="level is-marginless" href="/categories/Welcome/">
-            <span class="level-start">
-                <span class="level-item">Welcome</span>
-            </span>
-            <span class="level-end">
-                <span class="level-item tag">1</span>
-            </span>
-        </a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-    
-        <div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-        <h3 class="menu-label">
-            아카이브
-        </h3>
-        <ul class="menu-list">
-        
-        <li>
-            <a class="level is-marginless" href="/archives/2020/01/">
-                <span class="level-start">
-                    <span class="level-item">1월 2020</span>
-                </span>
-                <span class="level-end">
-                    <span class="level-item tag">2</span>
-                </span>
-            </a>
-        </li>
-        
-        </ul>
-        </div>
-    </div>
-</div>
+
     
         <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            태그 클라우드
+            최근 글
         </h3>
-        <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/google-cloud-text-to-speech/" style="font-size: 10px;">google-cloud-text-to-speech</a> <a href="/tags/hello/" style="font-size: 10px;">hello</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/python/" style="font-size: 10px;">python</a> <a href="/tags/slackbot/" style="font-size: 10px;">slackbot</a> <a href="/tags/tts/" style="font-size: 10px;">tts</a>
+        
+        <article class="media">
+            
+            <a href="/2020/01/18/Parroter-%EB%A7%8C%EB%93%A4%EA%B8%B0/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/post/parroter-thumbnail.png" alt="TTS를 기반으로 한 슬랙봇 만들기">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-01-18T11:40:25.000Z">2020-01-18</time></div>
+                    <a href="/2020/01/18/Parroter-%EB%A7%8C%EB%93%A4%EA%B8%B0/" class="title has-link-black-ter is-size-6 has-text-weight-normal">TTS를 기반으로 한 슬랙봇 만들기</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/Development/">Development</a> / <a class="has-link-grey -link" href="/categories/Development/Application/">Application</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/01/12/StartBlog/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/how-to-start-a-blog.jpg" alt="블로그를 시작합니다.">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-01-12T12:53:10.445Z">2020-01-12</time></div>
+                    <a href="/2020/01/12/StartBlog/" class="title has-link-black-ter is-size-6 has-text-weight-normal">블로그를 시작합니다.</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/Welcome/">Welcome</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
     </div>
 </div>
     
     
-        <div class="column-right-shadow is-hidden-widescreen ">
-        
-        </div>
-    
 </div>
 
-                
             </div>
         </div>
     </section>
@@ -406,7 +321,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/sonanlee.png" alt="소난의 기술 블로그" height="28">
+                    <img src="/images/sonanlee.png" alt="TTS를 기반으로 한 슬랙봇 만들기" height="28">
                 
                 </a>
                 <p class="is-size-7">
