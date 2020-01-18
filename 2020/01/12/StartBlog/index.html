@@ -233,14 +233,23 @@
 <div class="card">
     <div class="card-content">
         <h3 class="title is-5 has-text-weight-normal">댓글</h3>
-        <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/ko/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-width="100%" data-href="https://sonanlee.dev/2020/01/12/startblog/" data-num-posts="5"></div>
+        
+<div id="comment-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.min.js"></script>
+<script>
+    var gitalk = new Gitalk({
+        clientID: '4b2bb7b53496296c72c6',
+        clientSecret: '50247f73a3d67f6cbfb96ef9e1d4bcf53a7afffc',
+        id: 'c36b080f767757d530f8163bae19e8f0',
+        repo: 'sonanlee.github.io',
+        owner: 'sonanlee',
+        admin: ["sonanlee"],
+        createIssueManually: false,
+        distractionFreeMode: false
+    })
+    gitalk.render('comment-container')
+</script>
 
     </div>
 </div>
