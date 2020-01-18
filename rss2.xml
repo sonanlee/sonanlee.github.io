@@ -9,13 +9,13 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>my brain is open, Paul Erdos</description>
-    <pubDate>Sat, 18 Jan 2020 14:57:58 GMT</pubDate>
+    <pubDate>Sat, 18 Jan 2020 16:12:31 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>블로그를 시작합니다.</title>
-      <link>https://sonanlee.dev/2020/01/12/startblog/</link>
-      <guid>https://sonanlee.dev/2020/01/12/startblog/</guid>
+      <link>https://sonanlee.dev/2020/01/12/starthexo/</link>
+      <guid>https://sonanlee.dev/2020/01/12/starthexo/</guid>
       <pubDate>Sun, 12 Jan 2020 12:53:10 GMT</pubDate>
       <description>
       
@@ -33,7 +33,7 @@
       
       <content:encoded><![CDATA[<p>이번에 <a href="https://hexo.io/">Hexo</a>로 블로그를 시작합니다.</p><p>다양한 기술과 게임 개발 관련된 글을 써볼 예정입니다.</p><p>잘 부탁드립니다.</p><hr>]]></content:encoded>
       
-      <comments>https://sonanlee.dev/2020/01/12/startblog/#disqus_thread</comments>
+      <comments>https://sonanlee.dev/2020/01/12/starthexo/#disqus_thread</comments>
     </item>
     
   </channel>
