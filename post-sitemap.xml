@@ -8,8 +8,24 @@
     </url>
 
     <url>
+        <loc>https://sonanlee.dev/2020/01/19/socialmedia2020/</loc>
+        <lastmod>2020-01-19T13:46:23.479Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://sonanlee.dev/2020/01/12/starthexo/</loc>
-        <lastmod>2020-01-18T16:12:31.700Z</lastmod>
+        <lastmod>2020-01-19T13:41:29.170Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://sonanlee.dev/2020/01/18/facebookgroup2020/</loc>
+        <lastmod>2020-01-19T12:52:34.591Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
