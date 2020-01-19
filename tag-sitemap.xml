@@ -3,15 +3,36 @@
 
 
     <url>
+        <loc>https://sonanlee.dev/tags/facebook-group/</loc>
+        <lastmod>2020-01-19T13:49:35.953Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sonanlee.dev/tags/2020/</loc>
+        <lastmod>2020-01-19T13:49:35.953Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://sonanlee.dev/tags/community/</loc>
-        <lastmod>2020-01-19T13:46:23.479Z</lastmod>
+        <lastmod>2020-01-19T13:49:35.953Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://sonanlee.dev/tags/social-media/</loc>
-        <lastmod>2020-01-19T13:46:23.479Z</lastmod>
+        <lastmod>2020-01-19T13:49:35.953Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sonanlee.dev/tags/facebook/</loc>
+        <lastmod>2020-01-19T13:49:35.953Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -25,13 +46,6 @@
 
     <url>
         <loc>https://sonanlee.dev/tags/feedly/</loc>
-        <lastmod>2020-01-19T13:46:23.479Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sonanlee.dev/tags/facebook/</loc>
         <lastmod>2020-01-19T13:46:23.479Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -61,20 +75,6 @@
     <url>
         <loc>https://sonanlee.dev/tags/hello/</loc>
         <lastmod>2020-01-19T13:41:29.170Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sonanlee.dev/tags/facebook-group/</loc>
-        <lastmod>2020-01-19T12:52:34.591Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sonanlee.dev/tags/2020/</loc>
-        <lastmod>2020-01-19T12:52:34.591Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
