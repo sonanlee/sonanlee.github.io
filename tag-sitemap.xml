@@ -3,57 +3,57 @@
 
 
     <url>
-        <loc>https://sonanlee.dev/tags/community/</loc>
-        <lastmod>2020-01-20T12:11:25.246Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sonanlee.dev/tags/social-media/</loc>
-        <lastmod>2020-01-20T12:11:25.246Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sonanlee.dev/tags/notion/</loc>
-        <lastmod>2020-01-20T12:11:25.246Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sonanlee.dev/tags/feedly/</loc>
-        <lastmod>2020-01-20T12:11:25.246Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sonanlee.dev/tags/facebook/</loc>
-        <lastmod>2020-01-20T12:11:25.246Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://sonanlee.dev/tags/sns/</loc>
-        <lastmod>2020-01-20T12:11:25.246Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://sonanlee.dev/tags/facebook-group/</loc>
-        <lastmod>2020-01-19T13:49:35.953Z</lastmod>
+        <lastmod>2020-05-18T12:17:16.130Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://sonanlee.dev/tags/2020/</loc>
-        <lastmod>2020-01-19T13:49:35.953Z</lastmod>
+        <lastmod>2020-05-18T12:17:16.130Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sonanlee.dev/tags/community/</loc>
+        <lastmod>2020-05-18T12:17:16.130Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sonanlee.dev/tags/social-media/</loc>
+        <lastmod>2020-05-18T12:17:16.130Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sonanlee.dev/tags/facebook/</loc>
+        <lastmod>2020-05-18T12:17:16.130Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sonanlee.dev/tags/notion/</loc>
+        <lastmod>2020-05-18T12:16:13.273Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sonanlee.dev/tags/feedly/</loc>
+        <lastmod>2020-05-18T12:16:13.273Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://sonanlee.dev/tags/sns/</loc>
+        <lastmod>2020-05-18T12:16:13.273Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
