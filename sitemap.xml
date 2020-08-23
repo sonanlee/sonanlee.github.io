@@ -3,23 +3,8 @@
 
 
     <sitemap>
-        <loc>https://sonanlee.dev/post-sitemap.xml</loc>
-        <lastmod>2020-05-18T12:17:16.130Z</lastmod>
-    </sitemap>
-
-    <sitemap>
         <loc>https://sonanlee.dev/page-sitemap.xml</loc>
-        <lastmod>2020-01-18T16:14:07.619Z</lastmod>
-    </sitemap>
-
-    <sitemap>
-        <loc>https://sonanlee.dev/category-sitemap.xml</loc>
-        <lastmod>2020-05-18T12:17:16.130Z</lastmod>
-    </sitemap>
-
-    <sitemap>
-        <loc>https://sonanlee.dev/tag-sitemap.xml</loc>
-        <lastmod>2020-05-18T12:17:16.130Z</lastmod>
+        <lastmod>2020-08-23T06:11:43.273Z</lastmod>
     </sitemap>
 
 </sitemapindex>
